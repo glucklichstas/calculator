@@ -1,0 +1,19 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #7e9ce6;
+}
+#container {
+}
+#logo {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#calculator {
+  width: 300px;
+  height: 480px;
+  background-color: #7e756b;
+  background-image: url(img/bg-bricks.png);
+  /* display: flex;
+  align-items: center; */
+}
