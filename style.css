@@ -345,3 +345,8 @@ body {
   width: 58px;
   background-image: url(img/b-eq-p.svg);
 }
+.empty {
+  height: 58px;
+  width: 58px;
+  margin-bottom: 15px;
+}
