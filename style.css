@@ -87,6 +87,7 @@ body {
   height: 485px;
   /* background-color: brown; */
   background-image: url(img/bg-bricks.png);
+  background-position: 0px 1px;
 }
 .screen {
   width: 260px;
