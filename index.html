@@ -12,7 +12,6 @@
     <title>Super Mario Calculator</title>
   </head>
   <body>
-    <script src="script.js"></script>
     <div class="container">
       <div id="logo">
         <img src="img/logo.svg" alt="Super Mario Calculator" />
@@ -20,35 +19,36 @@
       <div class="calculator">
         <div class="screen">
           <div class="history">
-            error
+            <p id="history-value">999*999</p>
           </div>
           <div class="result">
-            00000000
+            <p class="result-value">999</p>
           </div>
         </div>
         <div class="calc-buttons">
-          <div class="c"></div>
-          <div class="seven"></div>
-          <div class="four"></div>
-          <div class="one"></div>
+          <div class="c" id="operator"></div>
+          <div class="seven" id="number"></div>
+          <div class="four" id="number"></div>
+          <div class="one" id="number"></div>
           <div class="empty"></div>
-          <div class="ce"></div>
-          <div class="eight"></div>
-          <div class="five"></div>
-          <div class="two"></div>
-          <div class="zero"></div>
-          <div class="percent"></div>
-          <div class="nine"></div>
-          <div class="six"></div>
-          <div class="three"></div>
+          <div class="ce" id="operator"></div>
+          <div class="eight" id="number"></div>
+          <div class="five" id="number"></div>
+          <div class="two" id="number"></div>
+          <div class="zero" id="number"></div>
+          <div class="percent" id="operator"></div>
+          <div class="nine" id="number"></div>
+          <div class="six" id="number"></div>
+          <div class="three" id="number"></div>
           <div class="empty"></div>
-          <div class="devide"></div>
-          <div class="multiply"></div>
-          <div class="minus"></div>
-          <div class="plus"></div>
-          <div class="equal"></div>
+          <div class="devide" id="operator"></div>
+          <div class="multiply" id="operator"></div>
+          <div class="minus" id="operator"></div>
+          <div class="plus" id="operator"></div>
+          <div class="equal" id="operator"></div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
