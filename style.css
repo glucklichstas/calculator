@@ -2,6 +2,10 @@ body {
   background-color: #7e9ce6;
   font-family: "Press Start 2P", cursive;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 .container {
 }
 #logo {
